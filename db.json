@@ -54,16 +54,16 @@
             "onLocationService": "false", "waitingTime": "20 mins"}
     ],
     "appointments": [
-        {"id": "1", "clientId": "1", "centerId": "3", "year": "2020", "month": "6", "day": "20", "time": "12:00"},
-        {"id": "2", "clientId": "1", "centerId": "5", "year": "2020", "month": "6", "day": "20", "time": "13:00"},
-        {"id": "3", "clientId": "2", "centerId": "7", "year": "2020", "month": "6", "day": "23", "time": "17:00"},
-        {"id": "4", "clientId": "2", "centerId": "9", "year": "2020", "month": "6", "day": "25", "time": "12:00"},
-        {"id": "5", "clientId": "3", "centerId": "1", "year": "2020", "month": "6", "day": "26", "time": "16:00"},
-        {"id": "6", "clientId": "4", "centerId": "8", "year": "2020", "month": "6", "day": "28", "time": "18:00"},
-        {"id": "7", "clientId": "4", "centerId": "2", "year": "2020", "month": "6", "day": "20", "time": "15:00"},
-        {"id": "8", "clientId": "5", "centerId": "6", "year": "2020", "month": "6", "day": "21", "time": "13:00"},
-        {"id": "9", "clientId": "5", "centerId": "4", "year": "2020", "month": "6", "day": "23", "time": "14:00"},
-        {"id": "10", "clientId": "3", "centerId": "10", "year": "2020", "month": "6", "day": "24", "time": "16:00"}
+        {"id": "1", "clientId": "1", "centerId": "3", "year": "2020", "month": "6", "day": "20", "time": "12:00", "status": "confirmed"},
+        {"id": "2", "clientId": "1", "centerId": "5", "year": "2020", "month": "6", "day": "20", "time": "13:00", "status": "confirmed"},
+        {"id": "3", "clientId": "2", "centerId": "7", "year": "2020", "month": "6", "day": "23", "time": "17:00", "status": "confirmed"},
+        {"id": "4", "clientId": "2", "centerId": "9", "year": "2020", "month": "6", "day": "25", "time": "12:00", "status": "confirmed"},
+        {"id": "5", "clientId": "3", "centerId": "1", "year": "2020", "month": "6", "day": "26", "time": "16:00", "status": "confirmed"},
+        {"id": "6", "clientId": "4", "centerId": "8", "year": "2020", "month": "6", "day": "28", "time": "18:00", "status": "confirmed"},
+        {"id": "7", "clientId": "4", "centerId": "2", "year": "2020", "month": "6", "day": "20", "time": "15:00", "status": "confirmed"},
+        {"id": "8", "clientId": "5", "centerId": "6", "year": "2020", "month": "6", "day": "21", "time": "13:00", "status": "confirmed"},
+        {"id": "9", "clientId": "5", "centerId": "4", "year": "2020", "month": "6", "day": "23", "time": "14:00", "status": "confirmed"},
+        {"id": "10", "clientId": "3", "centerId": "10", "year": "2020", "month": "6", "day": "24", "time": "16:00", "status": "confirmed"}
     ],
     "reviews": [
         {"id": "1", "clientId": "1", "centerId": "1", "reviewContent": "blaaaaaaaaaaaaaaaa blaaaaaaaaaaaaaaa blaaaaaaaaaaaaaaaaaaaaaa", 
