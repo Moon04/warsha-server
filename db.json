@@ -152,6 +152,19 @@
       "city": "",
       "area": "",
       "id": "pHqJ5kW"
+    },
+    {
+      "fName": "Dina",
+      "lName": "Ahmed",
+      "userEmail": "dina.ahmed@gmail.com",
+      "userPassword": "12345يهىش",
+      "carBrand": "BMW",
+      "carModel": "X4",
+      "carYear": "2019",
+      "address": "",
+      "city": "",
+      "area": "",
+      "id": "xiHYMT2"
     }
   ],
   "centers": [
@@ -187,9 +200,9 @@
       "onLocationService": "true",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250
- ,
-"totalRating": "4"   },
+      "noOfVisitors": 250,
+      "totalRating": "4"
+    },
     {
       "id": "2",
       "centerName": "FMS",
@@ -247,9 +260,9 @@
       "onLocationService": "true",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250
- ,
-"totalRating": "4"   },
+      "noOfVisitors": 250,
+      "totalRating": "4"
+    },
     {
       "id": "4",
       "centerName": "Elmokhtar",
@@ -277,9 +290,9 @@
       "onLocationService": "false",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250
- ,
-"totalRating": "4"   },
+      "noOfVisitors": 250,
+      "totalRating": "4"
+    },
     {
       "id": "5",
       "centerName": "Auto Services",
@@ -307,9 +320,9 @@
       "onLocationService": "true",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250
- ,
-"totalRating": "4"   },
+      "noOfVisitors": 250,
+      "totalRating": "4"
+    },
     {
       "id": "6",
       "centerName": "Otto Group",
@@ -337,9 +350,9 @@
       "onLocationService": "true",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250
- ,
-"totalRating": "4"   },
+      "noOfVisitors": 250,
+      "totalRating": "4"
+    },
     {
       "id": "7",
       "centerName": "Deep",
@@ -367,9 +380,9 @@
       "onLocationService": "false",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250
- ,
-"totalRating": "4"   },
+      "noOfVisitors": 250,
+      "totalRating": "4"
+    },
     {
       "id": "8",
       "centerName": "Awad Group",
@@ -397,9 +410,9 @@
       "onLocationService": "false",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250
- ,
-"totalRating": "4"   },
+      "noOfVisitors": 250,
+      "totalRating": "4"
+    },
     {
       "id": "9",
       "centerName": "Mansour Group",
@@ -427,9 +440,9 @@
       "onLocationService": "true",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250
- ,
-"totalRating": "4"   },
+      "noOfVisitors": 250,
+      "totalRating": "4"
+    },
     {
       "id": "10",
       "centerName": "Autostaster",
@@ -457,9 +470,9 @@
       "onLocationService": "false",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250
- ,
-"totalRating": "4"   }
+      "noOfVisitors": 250,
+      "totalRating": "4"
+    }
   ],
   "appointments": [
     {
@@ -646,27 +659,26 @@
     }
   ],
   "availableAppointments": [
-      {
-          "year":"2020",
-          "month":"6",
-          "day":"20",
-          "time":"12:00",
-          "centerId": "1"
-      },
-        {
-            "year":"2020",
-            "month":"6",
-            "day":"25",
-            "time":"01:00",
-            "centerId": "2"
-        },
-        {
-            "year":"2020",
-            "month":"6",
-            "day":"30",
-            "time":"02:00",
-            "centerId": "3"
-        }
+    {
+      "year": "2020",
+      "month": "6",
+      "day": "20",
+      "time": "12:00",
+      "centerId": "1"
+    },
+    {
+      "year": "2020",
+      "month": "6",
+      "day": "25",
+      "time": "01:00",
+      "centerId": "2"
+    },
+    {
+      "year": "2020",
+      "month": "6",
+      "day": "30",
+      "time": "02:00",
+      "centerId": "3"
+    }
   ]
-
 }
