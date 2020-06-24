@@ -141,30 +141,30 @@
       "carYear": "2017"
     },
     {
+      "id": "11",
       "fName": "Ahmed",
       "lName": "Abbass",
       "userEmail": "ahmed.abbass@gmail.com",
       "userPassword": "12345ahmed",
-      "carBrand": "",
-      "carModel": "",
-      "carYear": "",
-      "address": "",
-      "city": "",
-      "area": "",
-      "id": "pHqJ5kW"
+      "carBrand": "Fiat",
+      "carModel": "punto",
+      "carYear": "2016",
+      "address": "Egypt",
+      "city": "Alex",
+      "area": ""
     },
     {
+      "id": "12",
       "fName": "Dina",
       "lName": "Ahmed",
       "userEmail": "dina.ahmed@gmail.com",
-      "userPassword": "12345يهىش",
+      "userPassword": "12345dina",
       "carBrand": "BMW",
       "carModel": "X4",
       "carYear": "2019",
-      "address": "",
-      "city": "",
-      "area": "",
-      "id": "xiHYMT2"
+      "address": "Egypt",
+      "city": "Cairo",
+      "area": ""
     }
   ],
   "centers": [
@@ -174,26 +174,36 @@
       "ownerName": "Ahmed Saleh",
       "locations": [
         {
+          "address": "",
+          "city": "Cairo",
+          "area": "Naser City"
+        },
+        {
+          "address": "",
           "city": "Cairo",
           "area": "Naser City"
         }
       ],
       "password": "123456789",
       "centerEmail": "auto21@gmail.com",
-      "phoneNumbers": [],
       "telephone": "12258",
-      "services": [
-        "batteries"
-      ],
+      "services": ["batteries", "Brakes"],
       "carBrands": [
         {
           "carBrand": "Toyota",
           "carModels": [
             {
               "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
+              "carYears": ["2018"]
+            }
+          ]
+        },
+        {
+          "carBrand": "Toyota",
+          "carModels": [
+            {
+              "carModel": "4Runner",
+              "carYears": ["2018"]
             }
           ]
         }
@@ -202,28 +212,30 @@
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
       "noOfVisitors": 250,
-      "totalRating": "4"
+      "noOfViews": 100,
+      "totalRating": "4",
+      "mainLocation": "25 El nasr road"
     },
     {
       "id": "2",
       "centerName": "FMS",
       "ownerName": "Mustfa Khaled",
-      "locations": [
-        "New Cairo"
-      ],
+      "locations": ["New Cairo"],
       "centerEmail": "fms@gmail.com",
       "phoneNumbers": [],
       "telephone": "13367",
-      "services": [],
+      "services": [
+        "Car & Truck Care",
+        "Electrical Services",
+        "Engine & Transmission"
+      ],
       "carBrands": [
         {
           "carBrand": "Toyota",
           "carModels": [
             {
               "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
+              "carYears": ["2018"]
             }
           ]
         }
@@ -232,208 +244,147 @@
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
       "noOfVisitors": "250",
-      "totalRating": "4"
+      "totalRating": "4",
+      "mainLocation": "17 shobra st"
     },
     {
       "id": "3",
       "centerName": "Amex",
       "ownerName": "Amr Mohamed",
-      "locations": [
-        "6 October"
-      ],
+      "locations": ["6 October"],
       "centerEmail": "amex@gmail.com",
       "phoneNumbers": [],
       "telephone": "14425",
-      "services": [],
+      "services": [
+        "Engine Maintenance",
+        "Fleet Brakes",
+        "Fleet Drive Train",
+        "Fleet Electrical"
+      ],
       "carBrands": [
         {
           "carBrand": "Toyota",
           "carModels": [
             {
               "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
+              "carYears": ["2018"]
             }
           ]
         }
       ],
-      "onLocationService": "true",
-      "waitingTime": "20 mins",
-      "speciality": "Mechanic",
-      "noOfVisitors": 250,
-      "totalRating": "4"
+      "onLocationService": "false",
+      "waitingTime": "14 mins",
+      "speciality": "Electric",
+      "noOfVisitors": 50,
+      "noOfViews": 100,
+      "totalRating": "5",
+      "mainLocation": "17 Al horya st"
     },
     {
       "id": "4",
       "centerName": "Elmokhtar",
       "ownerName": "Sayed Salah",
-      "locations": [
-        "Maadi"
-      ],
+      "locations": ["Maadi"],
       "centerEmail": "elmokhtar@gmail.com",
       "phoneNumbers": [],
       "telephone": "17792",
-      "services": [],
+      "services": ["Fleet Electronics"],
       "carBrands": [
         {
           "carBrand": "Toyota",
           "carModels": [
             {
               "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
+              "carYears": ["2018"]
             }
           ]
         }
       ],
       "onLocationService": "false",
       "waitingTime": "20 mins",
-      "speciality": "Mechanic",
-      "noOfVisitors": 250,
-      "totalRating": "4"
+      "speciality": "Engine oils",
+      "noOfVisitors": 400,
+      "noOfViews": 600,
+      "totalRating": "4",
+      "mainLocation": "43 Abbas el akkad"
     },
     {
       "id": "5",
       "centerName": "Auto Services",
       "ownerName": "Salem Ahmed",
-      "locations": [
-        "Helwan"
-      ],
+      "locations": ["Helwan"],
       "centerEmail": "auto.services@gmail.com",
       "phoneNumbers": [],
       "telephone": "1665",
-      "services": [],
+      "services": ["Fleet Front End Services", "Fleet Engine Work"],
       "carBrands": [
         {
           "carBrand": "Toyota",
           "carModels": [
             {
               "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
+              "carYears": ["2018"]
             }
           ]
         }
       ],
       "onLocationService": "true",
-      "waitingTime": "20 mins",
-      "speciality": "Mechanic",
-      "noOfVisitors": 250,
-      "totalRating": "4"
+      "waitingTime": "18 mins",
+      "speciality": "Mechanic and Electric",
+      "noOfVisitors": 100,
+      "noOfViews": 300,
+      "totalRating": "4",
+      "mainLocation": "17 El swara st"
     },
     {
       "id": "6",
       "centerName": "Otto Group",
       "ownerName": "Mohamed Ali",
-      "locations": [
-        "Elharam"
-      ],
+      "locations": ["Elharam"],
       "centerEmail": "otoo.group@gmail.com",
       "phoneNumbers": [],
       "telephone": "14423",
-      "services": [],
+      "services": ["batteries", "Fleet General Services", "General Services"],
       "carBrands": [
         {
           "carBrand": "Toyota",
           "carModels": [
             {
               "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
+              "carYears": ["2018"]
             }
           ]
         }
       ],
-      "onLocationService": "true",
-      "waitingTime": "20 mins",
-      "speciality": "Mechanic",
+      "onLocationService": "false",
+      "waitingTime": "11 mins",
+      "speciality": "All",
       "noOfVisitors": 250,
-      "totalRating": "4"
+      "noOfViews": 450,
+      "totalRating": "4",
+      "mainLocation": "25 Taher el gazairi st"
     },
     {
       "id": "7",
       "centerName": "Deep",
       "ownerName": "Khaled Mokhtar",
-      "locations": [
-        "Giza Square"
-      ],
+      "locations": ["Giza Square"],
       "centerEmail": "deep@gmail.com",
       "phoneNumbers": [],
       "telephone": "19952",
-      "services": [],
+      "services": [
+        "Heating and Cooling Services",
+        "Import Cars & Trucks",
+        "Miscellaneous Services",
+        "Quick Lube Services"
+      ],
       "carBrands": [
         {
           "carBrand": "Toyota",
           "carModels": [
             {
               "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
-            }
-          ]
-        }
-      ],
-      "onLocationService": "false",
-      "waitingTime": "20 mins",
-      "speciality": "Mechanic",
-      "noOfVisitors": 250,
-      "totalRating": "4"
-    },
-    {
-      "id": "8",
-      "centerName": "Awad Group",
-      "ownerName": "Fady Mohamed",
-      "locations": [
-        "Ramsis"
-      ],
-      "centerEmail": "awad.group@gmail.com",
-      "phoneNumbers": [],
-      "telephone": "18845",
-      "services": [],
-      "carBrands": [
-        {
-          "carBrand": "Toyota",
-          "carModels": [
-            {
-              "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
-            }
-          ]
-        }
-      ],
-      "onLocationService": "false",
-      "waitingTime": "20 mins",
-      "speciality": "Mechanic",
-      "noOfVisitors": 250,
-      "totalRating": "4"
-    },
-    {
-      "id": "9",
-      "centerName": "Mansour Group",
-      "ownerName": "Tarek Ahmed",
-      "locations": [
-        "Eltahrir"
-      ],
-      "centerEmail": "mansour.group@gmail.com",
-      "phoneNumbers": [],
-      "telephone": "12275",
-      "services": [],
-      "carBrands": [
-        {
-          "carBrand": "Toyota",
-          "carModels": [
-            {
-              "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
+              "carYears": ["2018"]
             }
           ]
         }
@@ -441,43 +392,102 @@
       "onLocationService": "true",
       "waitingTime": "20 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250,
-      "totalRating": "4"
+      "noOfVisitors": 200,
+      "noOfViews": 1000,
+      "totalRating": "4",
+      "mainLocation": "5 gesr el swees st"
     },
     {
-      "id": "10",
-      "centerName": "Autostaster",
-      "ownerName": "Samy Mustafa",
-      "locations": [
-        "Edokki"
-      ],
-      "centerEmail": "autstaster@gmail.com",
+      "id": "8",
+      "centerName": "Awad Group",
+      "ownerName": "Fady Mohamed",
+      "locations": ["Ramsis"],
+      "centerEmail": "awad.group@gmail.com",
       "phoneNumbers": [],
-      "telephone": "16687",
-      "services": [],
+      "telephone": "18845",
+      "services": ["Towing"],
       "carBrands": [
         {
           "carBrand": "Toyota",
           "carModels": [
             {
               "carModel": "4Runner",
-              "carYears": [
-                "2018"
-              ]
+              "carYears": ["2018"]
+            }
+          ]
+        }
+      ],
+      "onLocationService": "true",
+      "waitingTime": "15 mins",
+      "speciality": "Electric",
+      "noOfVisitors": 600,
+      "noOfViews": 2500,
+      "totalRating": "4",
+      "mainLocation": "7 al nahda square"
+    },
+    {
+      "id": "9",
+      "centerName": "Mansour Group",
+      "ownerName": "Tarek Ahmed",
+      "locations": ["Eltahrir"],
+      "centerEmail": "mansour.group@gmail.com",
+      "phoneNumbers": [],
+      "telephone": "12275",
+      "services": ["Transmission Services", "Undercar Services"],
+      "carBrands": [
+        {
+          "carBrand": "Toyota",
+          "carModels": [
+            {
+              "carModel": "4Runner",
+              "carYears": ["2018"]
             }
           ]
         }
       ],
       "onLocationService": "false",
-      "waitingTime": "20 mins",
+      "waitingTime": "17 mins",
+      "speciality": "Car body and welding",
+      "noOfVisitors": 550,
+      "noOfViews": 3000,
+      "totalRating": "4",
+      "mainLocation": "25 Al abbasia"
+    },
+    {
+      "id": "10",
+      "centerName": "Autostaster",
+      "ownerName": "Samy Mustafa",
+      "locations": ["Edokki"],
+      "centerEmail": "autstaster@gmail.com",
+      "phoneNumbers": [],
+      "telephone": "16687",
+      "services": ["4x4 Services"],
+      "carBrands": [
+        {
+          "carBrand": "Toyota",
+          "carModels": [
+            {
+              "carModel": "4Runner",
+              "carYears": ["2018"]
+            }
+          ]
+        }
+      ],
+      "onLocationService": "true",
+      "waitingTime": "19 mins",
       "speciality": "Mechanic",
-      "noOfVisitors": 250,
-      "totalRating": "4"
+      "noOfVisitors": 50,
+      "noOfViews": 100,
+      "totalRating": "4",
+      "mainLocation": "1 abdo basha square"
     }
   ],
   "appointments": [
     {
       "id": "1",
+      "centerName": "amex",
+      "centerAddress": "17 Al horya st",
+      "customerName": "Mariam Hassn",
       "clientId": "1",
       "centerId": "3",
       "year": "2021",
@@ -488,6 +498,9 @@
     },
     {
       "id": "2",
+      "centerName": "Auto Services",
+      "centerAddress": "17 El swara st",
+      "customerName": "Mariam Hassn",
       "clientId": "1",
       "centerId": "5",
       "year": "2020",
@@ -498,6 +511,9 @@
     },
     {
       "id": "3",
+      "centerName": "Deep",
+      "centerAddress": "5 gesr el swees st",
+      "customerName": "Maryam Talal",
       "clientId": "2",
       "centerId": "7",
       "year": "2020",
@@ -508,6 +524,9 @@
     },
     {
       "id": "4",
+      "centerName": "Mansour Group",
+      "centerAddress": "25 Al abbasia",
+      "customerName": "Maryam Talal",
       "clientId": "2",
       "centerId": "9",
       "year": "2020",
@@ -518,6 +537,9 @@
     },
     {
       "id": "5",
+      "centerName": "Auto21",
+      "centerAddress": "25 El nasr road",
+      "customerName": "Esraa Elnaggar",
       "clientId": "3",
       "centerId": "1",
       "year": "2020",
@@ -528,6 +550,9 @@
     },
     {
       "id": "6",
+      "centerName": "Awad Group",
+      "centerAddress": "7 al nahda square",
+      "customerName": "Basant Amr",
       "clientId": "4",
       "centerId": "8",
       "year": "2020",
@@ -538,6 +563,9 @@
     },
     {
       "id": "7",
+      "centerName": "FMS",
+      "centerAddress": "17 shobra st",
+      "customerName": "Basant Amr",
       "clientId": "4",
       "centerId": "2",
       "year": "2020",
@@ -548,6 +576,9 @@
     },
     {
       "id": "8",
+      "centerName": "Otto Group",
+      "centerAddress": "25 Taher el gazairi st",
+      "customerName": "reem emad",
       "clientId": "5",
       "centerId": "6",
       "year": "2020",
@@ -558,6 +589,9 @@
     },
     {
       "id": "9",
+      "centerName": "Elmokhtar",
+      "centerAddress": "43 Abbas el akkad",
+      "customerName": "reem emad",
       "clientId": "5",
       "centerId": "4",
       "year": "2020",
@@ -568,6 +602,9 @@
     },
     {
       "id": "10",
+      "centerName": "Autostaster",
+      "centerAddress": "1 abdo basha square",
+      "customerName": "Esraa Elnaggar",
       "clientId": "3",
       "centerId": "10",
       "year": "2020",
@@ -657,29 +694,6 @@
       "reviewContent": "blaaaaaaaaaaaaaaaa blaaaaaaaaaaaaaaa blaaaaaaaaaaaaaaaaaaaaaa",
       "reviewRate": "3.5",
       "appintmentDate": "2020-04-26"
-    }
-  ],
-  "availableAppointments": [
-    {
-      "year": "2020",
-      "month": "6",
-      "day": "20",
-      "time": "12:00",
-      "centerId": "1"
-    },
-    {
-      "year": "2020",
-      "month": "6",
-      "day": "25",
-      "time": "01:00",
-      "centerId": "2"
-    },
-    {
-      "year": "2020",
-      "month": "6",
-      "day": "30",
-      "time": "02:00",
-      "centerId": "3"
     }
   ]
 }
